@@ -1,113 +1,146 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# ✨ TextUtils - Text Analyzer & Formatter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![TextUtils Banner](https://img.shields.io/badge/TextUtils-React%20Project-61DAFB?style=for-the-badge&logo=react)
 
-In the project directory, you can run:
+### 🚀 A simple and powerful text manipulation tool built with React.js
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌟 About The Project
 
-### `npm test`
+**TextUtils** is a modern text analyzer web application that helps users easily modify, clean, and analyze their text.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+With a simple and clean interface, users can convert text cases, remove unwanted spaces, find & replace words, and analyze text statistics instantly.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Feature | Description |
+|---|---|
+| 🔠 Uppercase Converter | Convert text into uppercase letters |
+| 🔡 Lowercase Converter | Convert text into lowercase letters |
+| 🧹 Remove Spaces | Removes unnecessary extra spaces |
+| 🗑️ Clear Text | Quickly clears the editor |
+| 🔍 Find & Replace | Replace specific words easily |
+| 📊 Text Analysis | Shows words and characters count |
+| ⏱️ Reading Time | Calculates estimated reading time |
+| 🌙 Dark Mode | Switch between light and dark themes |
+| 📱 Responsive UI | Works on different screen sizes |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🖥️ Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ☀️ Light Mode
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Light Mode](your-image-link)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🌙 Dark Mode
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Dark Mode](your-image-link)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div>
 
-### Code Splitting
+- ⚛️ React.js
+- 🟨 JavaScript
+- 🎨 CSS3
+- 🌐 HTML5
+- 💙 Bootstrap 5
+- 🔀 React Router
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</div>
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📂 Folder Structure
 
-### Making a Progressive Web App
+```
+TextUtils/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── TextForm.js
+│   │   └── About.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## ⚡ Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Clone the repository:
 
-### Deployment
+```bash
+git clone https://github.com/yourusername/textutils.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Open project folder:
 
-### `npm run build` fails to minify
+```bash
+cd textutils
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# TextUtils - React Text Manipulation App 🚀
+Install dependencies:
 
-TextUtils is a simple and powerful **React.js based text utility web application** that allows users to perform different text transformations quickly and easily. It provides a clean interface to modify text, analyze content, and improve productivity.
+```bash
+npm install
+```
 
-## 🌟 Features
+Run the application:
 
-* 🔠 Convert text into **UPPERCASE**
-* 🔡 Convert text into **lowercase**
-* 🗑️ Clear all text instantly
-* 📋 Copy text to clipboard
-* 📊 Count words and characters
-* ⏱️ Calculate reading time
-* ⚡ Fast and responsive user interface
-* 🌙 Clean and modern design
+```bash
+npm start
+```
 
-## 🛠️ Technologies Used
+Now open:
 
-* **React.js**
-* **JavaScript (ES6+)**
-* **HTML5**
-* **CSS3**
-* **Bootstrap** 
+```
+http://localhost:3000
+```
 
+---
 
-## 🎯 Purpose
+## 📚 Learning Concepts Used
 
-The main purpose of TextUtils is to provide users with a simple tool for editing and formatting text efficiently. It helps users save time by performing common text operations with a single click.
+This project helped me practice:
 
+✅ React Components  
+✅ Props  
+✅ State Management  
+✅ Event Handling  
+✅ Conditional Rendering  
+✅ React Router  
+✅ Bootstrap Styling  
 
+---
 
-👨‍💻 Author
-
+## 👨‍💻 Author
 Prajapati Vaidik S.
 
-⭐ Support
+⭐ If you like this project, don't forget to star the repository!
 
-If you like this project, consider giving it a ⭐ on GitHub!
+---
+<div align="center">
 
-This README will look good for a portfolio project and GitHub profile.
-```
->>>>>>> aae474d414546e82ed85c296e7726b4bd7f60321
+### Made with ❤️ using React.js
+
+</div>
